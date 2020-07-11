@@ -12,7 +12,7 @@ function App() {
      
       <header className="App-header">
       <h1>Teamlist</h1>
-        <Form member={teamList} SetTeamList={SetTeamList}/>
+        <Form teamList={teamList} SetTeamList={SetTeamList}/>
         
       </header>
     </div>
